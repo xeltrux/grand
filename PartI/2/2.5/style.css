@@ -1,0 +1,14 @@
+:root{
+    --main-font: Hevletica, Arial, sans-serif;
+    --brand-color: #369;
+}
+body{
+    line-height: 1.2;
+}
+.about-us{
+    font-size: 2em;
+}
+p{
+    font-family: var(--main-font,sans-serif);
+    color: var(--brand-color,blue);
+}

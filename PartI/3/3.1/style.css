@@ -1,0 +1,44 @@
+:root{    
+        box-sizing: border-box; 
+}
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+header{
+    background-color: #0072b0;
+    color:white;
+    border-radius: .5em;
+}
+.wrapper{
+    margin-right: -1.5em ;
+    margin-left: -1.5em ;
+}
+.container{
+    display: table;
+    width: 100%;
+    border-spacing: 1.5em 0;    
+}
+
+.main{
+    display: table-cell;    
+    width: 70%;    
+    background-color: #fff;
+    border-radius: .5em;  
+    
+}
+.sidebar{
+    display: table-cell;            
+    width: 30%;    
+    margin-left:1.5em;
+    padding:1.5em;    
+    background-color: #fff;
+    border-radius: .5em;    
+    
+}

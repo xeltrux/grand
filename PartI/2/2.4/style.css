@@ -1,0 +1,22 @@
+:root{
+    font-size:calc(0.5em + 1vw);
+}
+
+.panel{
+    font-size: 0.8rem;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+    padding:1em;
+}
+.panel.large{
+    font-size:1em;
+}
+.panel.small{
+    font-size:0.7em;
+}
+.panel > h2{        
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:0px;
+    font-size:0.8em;
+}
